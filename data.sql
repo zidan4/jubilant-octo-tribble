@@ -15,3 +15,4 @@ WHERE NOT EXISTS (
 SELECT *
 FROM connection_test
 WHERE message = 'VS Code connection works';
+
