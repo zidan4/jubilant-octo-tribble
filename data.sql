@@ -12,5 +12,6 @@ WHERE NOT EXISTS (
     WHERE message = 'VS Code connection works'
 );
 
-SELECT * FROM connection_test;
-
+SELECT *
+FROM connection_test
+WHERE message = 'VS Code connection works';
