@@ -12,5 +12,4 @@ WHERE NOT EXISTS (
 );
 
 SELECT * FROM connection_test;
-
-
+WHERE
